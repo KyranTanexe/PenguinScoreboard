@@ -8,11 +8,56 @@
 import SwiftUI
 
 struct ChooseSport: View {
+    @State private var selectedSport: String = ""
+
+    let sports = ["Basketball", "Handball", "Badminton", "Baseball", "Soccer"]
+
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack {
+            Text("Choose a sport")
+               .font(.largeTitle)
+               .fontWeight(.bold)
+               .padding()
+
+            ForEach(sports, id: \.self) { sport in
+                Button(action: {
+                    self.selectedSport = sport
+                }) {
+                    HStack {
+                        if sport == "Basketball" {
+                            Image(systemName: "figure.basketball")
+                               .font(.largeTitle)
+                        } else if sport == "Handball" {
+                            Image(systemName: "figure.handball")
+                               .font(.largeTitle)
+                        } else if sport == "Badminton" {
+                            Image(systemName: "figure.badminton")
+                               .font(.largeTitle)
+                        } else if sport == "Baseball" {
+                            Image(systemName: "figure.baseball")
+                               .font(.largeTitle)
+                        } else if sport == "Soccer" {
+                            Image(systemName: "figure.soccer")
+                               .font(.largeTitle)
+                        }
+                        Text(sport)
+                            .font(.largeTitle)
+                            .fontWeight(.semibold)
+                    }
+                   .padding(20)
+                   .background(Color.gray.opacity(0.1))
+                   .cornerRadius(12.5)
+                }
+            }
+
+            Text("Selected sport: \(selectedSport)")
+               .padding()
+        }
     }
 }
 
-#Preview {
-    ChooseSport()
+struct ChooseSport_Previews: PreviewProvider {
+    static var previews: some View {
+        ChooseSport()
+    }
 }
