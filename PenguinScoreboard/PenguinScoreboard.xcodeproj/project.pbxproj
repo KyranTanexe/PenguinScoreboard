@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6951C85E2C295D2200E14948 /* ChooseSport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6951C85D2C295D2200E14948 /* ChooseSport.swift */; };
+		6951C8602C295D4600E14948 /* ScoreboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6951C85F2C295D4600E14948 /* ScoreboardView.swift */; };
 		9DD928192C295ACE00B5394A /* PenguinScoreboardApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DD928182C295ACE00B5394A /* PenguinScoreboardApp.swift */; };
 		9DD9281B2C295ACE00B5394A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DD9281A2C295ACE00B5394A /* ContentView.swift */; };
 		9DD9281D2C295ACF00B5394A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9DD9281C2C295ACF00B5394A /* Assets.xcassets */; };
@@ -14,6 +16,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6951C85D2C295D2200E14948 /* ChooseSport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseSport.swift; sourceTree = "<group>"; };
+		6951C85F2C295D4600E14948 /* ScoreboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreboardView.swift; sourceTree = "<group>"; };
 		9DD928152C295ACE00B5394A /* PenguinScoreboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PenguinScoreboard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9DD928182C295ACE00B5394A /* PenguinScoreboardApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PenguinScoreboardApp.swift; sourceTree = "<group>"; };
 		9DD9281A2C295ACE00B5394A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -51,6 +55,8 @@
 		9DD928172C295ACE00B5394A /* PenguinScoreboard */ = {
 			isa = PBXGroup;
 			children = (
+				6951C85D2C295D2200E14948 /* ChooseSport.swift */,
+				6951C85F2C295D4600E14948 /* ScoreboardView.swift */,
 				9DD928182C295ACE00B5394A /* PenguinScoreboardApp.swift */,
 				9DD9281A2C295ACE00B5394A /* ContentView.swift */,
 				9DD9281C2C295ACF00B5394A /* Assets.xcassets */,
@@ -138,6 +144,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				9DD9281B2C295ACE00B5394A /* ContentView.swift in Sources */,
+				6951C85E2C295D2200E14948 /* ChooseSport.swift in Sources */,
+				6951C8602C295D4600E14948 /* ScoreboardView.swift in Sources */,
 				9DD928192C295ACE00B5394A /* PenguinScoreboardApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
