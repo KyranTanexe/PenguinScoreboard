@@ -12,7 +12,7 @@ import SwiftUI
 struct ChooseSport: View {
     @State private var selectedSport: String = ""
 
-    let sports = ["Basketball", "Handball", "Badminton", "Baseball", "Soccer"]
+    let sports = ["Basketball", "Handball", "Badminton", "Baseball", "Soccer", "Rugby"]
 
     var body: some View {
         VStack {
@@ -40,6 +40,9 @@ struct ChooseSport: View {
                                .font(.largeTitle)
                         } else if sport == "Soccer" {
                             Image(systemName: "figure.soccer")
+                               .font(.largeTitle)
+                        } else if sport == "Rugby" {
+                            Image(systemName: "figure.rugby")
                                .font(.largeTitle)
                         }
                         Text(sport)
