@@ -14,7 +14,8 @@ struct ContentView: View {
                 Image(systemName: "globe")
                     .imageScale(.large)
                     .foregroundStyle(.tint)
-                Text("Placeholder for title screen")
+                Text("The Penguin Scoreboard")
+                Text("Designed to be the best scoreboard")
                 NavigationLink{
                     ChooseSport()
                 } label: {
