@@ -4,12 +4,16 @@
 //
 //  Created by KR on 24/6/24.
 //
+//  Basically a viewcontroller
+//
 
 import SwiftUI
 
 struct ContentView: View {
+    
     var body: some View {
         NavigationStack{
+            
             VStack {
                 Image(systemName: "globe")
                     .imageScale(.large)
